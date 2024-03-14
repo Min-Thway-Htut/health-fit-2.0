@@ -1,0 +1,450 @@
+.embrace-a-healthy {
+    margin: 0;
+    width: 481px;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .embrace-a-healthy-lifestyle-wrapper {
+    width: 747px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .discover-the-benefits {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-open-sans);
+    color: var(--color-darkslategray);
+  }
+  .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px 0;
+    max-width: 100%;
+  }
+  .frame-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .exercise-regularly {
+    width: 174px;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .exercise-regularly-wrapper {
+    width: 514px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .regular-physical-activity {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-open-sans);
+    color: var(--color-dimgray);
+  }
+  .frame1 {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) var(--padding-xl) var(--padding-4xl)
+      var(--padding-11xl);
+    box-sizing: border-box;
+    gap: 8.5px 0;
+    max-width: 100%;
+  }
+  .frame-icon1 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-div {
+    width: 526px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .eat-right {
+    width: 86px;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .eat-right-wrapper {
+    width: 526px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .eating-a-healthy {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-open-sans);
+    color: var(--color-dimgray);
+  }
+  .frame2 {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) 14px var(--padding-4xl) 25px;
+    box-sizing: border-box;
+    gap: 8.5px 0;
+    max-width: 100%;
+  }
+  .frame-icon2 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-wrapper1 {
+    width: 524px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .count-your-calories {
+    width: 192px;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .count-your-calories-wrapper {
+    width: 524px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .keeping-track-of {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-open-sans);
+    color: var(--color-dimgray);
+  }
+  .frame,
+  .frame3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame3 {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+    overflow: hidden;
+    padding: var(--padding-5xl) 15px var(--padding-4xl) 26px;
+    box-sizing: border-box;
+    gap: 8.5px 0;
+  }
+  .frame {
+    gap: 16px 0;
+  }
+  .get-started {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .frame-wrapper2,
+  .frame4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frame4 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-base);
+    background-color: var(--color-mediumspringgreen);
+    width: 120px;
+    border-radius: var(--br-5xs);
+    justify-content: flex-start;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+  .frame4:hover,
+  .generate-text:hover {
+    background-color: var(--color-forestgreen);
+  }
+  .frame-wrapper2 {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-container {
+    width: 576px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px 0;
+  }
+  .frame-container,
+  .frame-parent,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray);
+  }
+  .frame-parent {
+    width: 758px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px 0;
+    text-align: center;
+    font-size: 36px;
+    color: var(--color-seagreen);
+    font-family: var(--font-roboto);
+  }
+  .your-personalized-meal {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .meal-planner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 57px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .enter-your-details {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-open-sans);
+    color: var(--color-darkslategray);
+  }
+  .main-interaction-button {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px 0;
+    max-width: 100%;
+  }
+  .generate-meal-plan {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .create-meal-plan,
+  .generate-text {
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .generate-text {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-base);
+    background-color: var(--color-mediumspringgreen);
+    width: 184px;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .create-meal-plan {
+    flex: 1;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+    overflow: hidden;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-xl);
+    max-width: 100%;
+  }
+  .main-interaction-button-parent,
+  .meal-input {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .meal-input {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 63px;
+    box-sizing: border-box;
+  }
+  .main-interaction-button-parent {
+    width: 574px;
+    flex-direction: column;
+    gap: 32px 0;
+  }
+  .main-frame-inner {
+    width: 748px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .main-frame {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-mintcream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 27px var(--padding-xl) var(--padding-45xl) var(--padding-12xl);
+    box-sizing: border-box;
+    gap: 62px 0;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-seagreen);
+    font-family: var(--font-roboto);
+  }
+  @media screen and (max-width: 800px) {
+    .embrace-a-healthy {
+      font-size: 29px;
+      line-height: 32px;
+    }
+    .your-personalized-meal {
+      font-size: var(--font-size-5xl);
+      line-height: 29px;
+    }
+    .main-frame {
+      gap: 31px 0;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .meal-input,
+    .meal-planner {
+      padding-left: var(--padding-9xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+    .meal-input {
+      padding-left: var(--padding-12xl);
+      padding-right: var(--padding-12xl);
+    }
+    .main-interaction-button-parent {
+      gap: 16px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .embrace-a-healthy {
+      font-size: 22px;
+      line-height: 24px;
+    }
+    .count-your-calories,
+    .eat-right,
+    .exercise-regularly {
+      font-size: var(--font-size-base);
+      line-height: 22px;
+    }
+    .your-personalized-meal {
+      font-size: var(--font-size-lg);
+      line-height: 22px;
+    }
+    .main-frame {
+      gap: 15px 0;
+    }
+  }
+  

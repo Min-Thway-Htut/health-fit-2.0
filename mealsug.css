@@ -1,0 +1,240 @@
+.custom-meal-suggestions {
+    margin: 0;
+    width: 371px;
+    position: relative;
+    font-size: inherit;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .meal-suggestions {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .enter-your-daily {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-open-sans);
+    color: var(--color-darkslategray);
+  }
+  .meal-suggestions-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px 0;
+    max-width: 100%;
+  }
+  .daily-calorie-intake {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .enter-your-calculated {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-open-sans);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 24px;
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    color: var(--color-darkgray);
+    text-align: left;
+    display: inline-block;
+    min-width: 224px;
+    max-width: 100%;
+    padding: 0;
+  }
+  .calorie-intake-box,
+  .consumed-cal-display {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .consumed-cal-display {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-mintcream);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0#000, 0 0 0#000;
+    border: 1px solid var(--color-lightgreen);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0 var(--padding-xs) var(--padding-4xs);
+  }
+  .calorie-intake-box {
+    flex-direction: column;
+    gap: 8px 0;
+  }
+  .dietary-preference {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .meal-suggestions-button {
+    border: 1px solid var(--color-lightgreen);
+    outline: 0;
+    background-color: var(--color-mintcream);
+    align-self: stretch;
+    height: 45px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0#000, 0 0 0#000;
+    box-sizing: border-box;
+    min-width: 230px;
+  }
+  .dietary-options-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-5xs);
+    gap: 9px 0;
+  }
+  .get-meal-suggestions {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .get-meal-suggestions-label,
+  .input-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .get-meal-suggestions-label {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-base);
+    background-color: var(--color-mediumspringgreen);
+    width: 197px;
+    border-radius: var(--br-5xs);
+    justify-content: flex-start;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+  .get-meal-suggestions-label:hover {
+    background-color: var(--color-forestgreen);
+  }
+  .input-frame {
+    align-self: stretch;
+    justify-content: center;
+  }
+  .diet-pref-label {
+    margin: 0;
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-13xl);
+    box-sizing: border-box;
+    gap: 15px 0;
+    max-width: 100%;
+  }
+  .cal-consumed-label,
+  .diet-pref-label,
+  .frame,
+  .main-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .cal-consumed-label {
+    width: 570px;
+    flex-direction: row;
+    padding: 0 var(--padding-42xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame,
+  .main-frame {
+    width: 100%;
+  }
+  .frame {
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    padding: var(--padding-11xl) var(--padding-325xl) var(--padding-45xl)
+      var(--padding-336xl);
+    box-sizing: border-box;
+    gap: 31px 0;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-seagreen);
+    font-family: var(--font-roboto);
+  }
+  .main-frame {
+    height: 518px;
+    position: relative;
+    background-color: var(--color-mintcream);
+    flex-direction: row;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 750px) {
+    .custom-meal-suggestions {
+      font-size: var(--font-size-5xl);
+      line-height: 29px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .cal-consumed-label,
+    .frame {
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .frame {
+      gap: 15px 0;
+      padding-left: var(--padding-158xl);
+      padding-right: var(--padding-153xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .custom-meal-suggestions {
+      font-size: var(--font-size-lg);
+      line-height: 22px;
+    }
+    .frame {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  

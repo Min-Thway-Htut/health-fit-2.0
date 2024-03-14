@@ -1,0 +1,309 @@
+.calorie-text-icon {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .age-weight-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .healthy-calorie-calculator1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+    font-weight: 600;
+    font-family: var(--font-roboto);
+    color: var(--color-seagreen);
+    text-align: center;
+  }
+  .calculator-frame,
+  .height-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .calculator-frame {
+    flex: 1;
+    flex-direction: column;
+    gap: 11px 0;
+  }
+  .height-frame {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-22xl) var(--padding-3xs);
+  }
+  .age1,
+  .enter-your-age1 {
+    position: relative;
+    text-align: left;
+  }
+  .age1 {
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-darkslategray);
+  }
+  .enter-your-age1 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-open-sans);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 24px;
+    flex: 1;
+    line-height: 24px;
+    color: var(--color-darkgray);
+    display: inline-block;
+    min-width: 224px;
+    max-width: 100%;
+    padding: 0;
+  }
+  .inputs-frame,
+  .weight-enter-frame {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .inputs-frame {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-mintcream);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0#000, 0 0 0#000;
+    border: 1px solid var(--color-lightgreen);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0 var(--padding-xs) var(--padding-4xs);
+  }
+  .weight-enter-frame {
+    flex-direction: column;
+    gap: 8px 0;
+  }
+  .enter-your-weight1,
+  .weight-kg1 {
+    position: relative;
+    text-align: left;
+  }
+  .weight-kg1 {
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-darkslategray);
+  }
+  .enter-your-weight1 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-open-sans);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 24px;
+    flex: 1;
+    line-height: 24px;
+    color: var(--color-darkgray);
+    display: inline-block;
+    min-width: 224px;
+    max-width: 100%;
+    padding: 0;
+  }
+  .age-enter-frame,
+  .frame8,
+  .weight-enter-frame1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame8 {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-mintcream);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0#000, 0 0 0#000;
+    border: 1px solid var(--color-lightgreen);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0 var(--padding-xs) var(--padding-4xs);
+  }
+  .age-enter-frame,
+  .weight-enter-frame1 {
+    flex-direction: column;
+    gap: 9px 0;
+  }
+  .age-enter-frame {
+    gap: 15px 0;
+  }
+  .enter-your-height1,
+  .height-cm1 {
+    position: relative;
+    text-align: left;
+  }
+  .height-cm1 {
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-darkslategray);
+  }
+  .enter-your-height1 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-open-sans);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 24px;
+    flex: 1;
+    line-height: 24px;
+    color: var(--color-darkgray);
+    display: inline-block;
+    min-width: 224px;
+    max-width: 100%;
+    padding: 0;
+  }
+  .height-frame-set,
+  .height-text-input {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .height-text-input {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-mintcream);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0#000, 0 0 0#000;
+    border: 1px solid var(--color-lightgreen);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0 var(--padding-xs) var(--padding-4xs);
+  }
+  .height-frame-set {
+    flex-direction: column;
+    gap: 8px 0;
+  }
+  .activity-level1 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .empty-frame {
+    border: 1px solid var(--color-lightgreen);
+    outline: 0;
+    background-color: var(--color-mintcream);
+    align-self: stretch;
+    height: 45px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0#000, 0 0 0#000;
+    box-sizing: border-box;
+    min-width: 230px;
+  }
+  .calculate-text,
+  .weight-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px 0;
+  }
+  .weight-text {
+    padding: 0 0 var(--padding-4xs);
+    box-sizing: border-box;
+    gap: 16px 0;
+    max-width: 100%;
+  }
+  .calculate1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .action-frame1,
+  .calc-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .calc-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) var(--padding-base) var(--padding-4xs);
+    background-color: var(--color-mediumspringgreen);
+    width: 103px;
+    border-radius: var(--br-5xs);
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .calc-button:hover {
+    background-color: var(--color-forestgreen);
+  }
+  .action-frame1 {
+    align-self: stretch;
+    justify-content: center;
+  }
+  .age-weight-frame,
+  .input-frame1 {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .age-weight-frame {
+    margin: 0;
+    width: 448px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 0 0#000, 0 0 0#000;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-13xl);
+    gap: 15px 0;
+    max-width: 100%;
+  }
+  .input-frame1 {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    background-color: var(--color-mintcream);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-22xl) var(--padding-xl);
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 650px) {
+    .age-weight-frame {
+      padding-top: var(--padding-2xl);
+      padding-bottom: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .healthy-calorie-calculator1 {
+      font-size: var(--font-size-lgi);
+      line-height: 26px;
+    }
+  }
+  
+  
+  
