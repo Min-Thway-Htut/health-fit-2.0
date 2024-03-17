@@ -3,8 +3,9 @@ let button = document.getElementById('btn');
 button.addEventListener('click', () => {
     const height = parseInt(document.getElementById('height').value);
     const weight = parseInt(document.getElementById('weight').value);
+    const age = parseInt(document.getElementById('age').value);
     const result = document.getElementById('output');
-    let height_status=false, weight_status=false;
+    let height_status=false, weight_status=false, age_status=false;
 
     if(height === '' || isNaN(height) || (height <= 0)){
         document.getElementById('height_error').innerHTML = 'Please provide a valid height';
@@ -20,20 +21,14 @@ button.addEventListener('click', () => {
         weight_status=true;
     }
 
-
-
-    if(height_status && weight_status){
-        const bmi = (weight / ((height*height)/10000)).toFixed(2);
-
-        if(bmi < 18.6){
-            result.innerHTML = 'Under weight : ' + bmi;
-        }else if(bmi >= 18.6 && bmi < 24.9){
-            result.innerHTML = 'Normal : ' + bmi;
-        }else{
-            result.innerHTML = 'Over weight : ' + bmi;
-        }
+    if(age === '' || isNaN(age) || (age <= 0)){
+        document.getElementById('age_error').innerHTML = 'Please provide a valid age';
     }else{
-        alert('The form has errors');
-        result.innerHTML = '';
+        document.getElementById('age_error').innerHTML = '';
+        age_status=true;
     }
-});
+
+    if(height_status && weight_status && age_status){
+        const dailyCalories = 66.47 + (13.75 * weight) + (5.003 * height) - (6.755 * age).toFixed(0);
+        result.innerHTML = "You require " + dailyCalories + " per day.";}
+    });
