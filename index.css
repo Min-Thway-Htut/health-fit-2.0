@@ -447,4 +447,56 @@
       gap: 15px 0;
     }
   }
-  
+
+.banner{
+  background-color: rgb(52, 163, 0);
+}
+
+.horizontal-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+}
+
+.horizontal-list li{
+  display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#li-welcome{
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+#li-welcome:hover{
+  color: black;
+}
+
+#bmi-calculator{
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+#bmi-calculator:hover{
+  color: black;
+}
+
+#calorie-calculator{
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+#calorie-calculator:hover{
+  color: black;
+}
+
+#copyright{
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}

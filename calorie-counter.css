@@ -3,22 +3,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, #83a4d4, #b6fbff);
 }
+
 span{
     color: red;
 }
+
+p{
+    color: black;
+}
 .wrapper{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 75%;
-    width: 10%;
-    transform:translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
     padding: 15px;
-    width: 50%;
-    background: black;
+    background: rgb(193, 222, 149);
     border-radius: 5px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     text-align: center;
+    margin: auto;
+
 }
 input{
     outline: none;
@@ -59,3 +61,55 @@ img{
     margin-bottom: 3%;
 }
 
+.banner{
+    background-color: rgb(52, 163, 0);
+  }
+  
+  .horizontal-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+  }
+  
+  .horizontal-list li{
+    display: inline-block;
+      margin: 20px;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  
+  #li-welcome{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #li-welcome:hover{
+    color: black;
+  }
+  
+  #bmi-calculator{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  #bmi-calculator:hover{
+    color: black;
+  }
+  
+  #calorie-calculator{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  #calorie-calculator:hover{
+    color: black;
+  }
+  
+  #copyright{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
