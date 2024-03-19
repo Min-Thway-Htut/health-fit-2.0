@@ -15,7 +15,22 @@
       href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
     />
   </head>
+
   <body>
+    <main>
+      <section class="banner" id="banner">
+        <div class="heading-banner">
+          <nav>
+            <ul class="horizontal-list">
+              <li><a id="li-welcome">Health Fit</a></li>
+              <li><a id="bmi-calculator" href="calorie-counter.html">BMI Calculator</a></li>
+              <li><a id="calorie-calculator" href="dailyCalories.html">Calorie Calculator</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </main>
+
     <div class="main-frame">
       <section class="frame-parent">
         <div class="frame-group">
@@ -76,22 +91,47 @@
                   />
                 </div>
                 <div class="count-your-calories-wrapper">
-                  <div class="count-your-calories">Count Your Calories</div>
+                  <div class="count-your-calories">Calculate Your BMI</div>
                 </div>
                 <div class="keeping-track-of">
-                  Keeping track of your calorie intake can help you maintain
-                  your weight and stay energized.
+                  Calculate your BMI and prevent health risks associated with under or over weight
                 </div>
               </div>
             </div>
+
             <div class="frame-wrapper2">
               <button class="frame4">
-                <a class="get-started" href="calculator.html">Get Started</a>
+                <a class="get-started" href="calorie-counter.html">Get Started</a>
               </button>
             </div>
           </div>
         </div>
       </section>
+
+
+      <div class="main-frame-inner">
+        <div class="main-interaction-button-parent">
+          <div class="main-interaction-button">
+            <div class="meal-planner">
+              <h2 class="your-personalized-meal">
+            Get to Know Your Required Calories
+              </h2>
+            </div>
+            <div class="enter-your-details">
+             Based on your input values, we will let you know your daily calories required.
+            </div>
+          </div>
+          <div class="meal-input">
+            <div class="create-meal-plan">
+              <button class="generate-text">
+               <a class="generate-meal-plan" href="dailyCalories.html">Calculate</a>
+
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="main-frame-inner">
         <div class="main-interaction-button-parent">
           <div class="main-interaction-button">
@@ -116,5 +156,15 @@
         </div>
       </div>
     </div>
+
+    <section class="banner" id="banner">
+      <div class="heading-banner">
+        <nav>
+          <ul class="horizontal-list">
+            <li id="copyright">@healthfit 2024</li>
+          </ul>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>
