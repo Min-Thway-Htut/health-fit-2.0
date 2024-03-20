@@ -214,3 +214,22 @@ h6{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.articles-frame button{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  width: 300px;
+  padding: auto;
+  font-size: 15px;
+}
+
+#read-article{
+  text-decoration: none;
+  color: white
+}
+
+#read-article:hover{
+  color: red;
+}
