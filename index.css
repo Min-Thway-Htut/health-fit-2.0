@@ -224,6 +224,7 @@
     font-family: var(--font-roboto);
     color: var(--color-white);
     text-align: center;
+    text-decoration: none;
   }
   .frame-wrapper2,
   .frame4 {
@@ -329,6 +330,7 @@
     font-family: var(--font-roboto);
     color: var(--color-white);
     text-align: center;
+    text-decoration: none;
   }
   .create-meal-plan,
   .generate-text {

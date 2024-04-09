@@ -1,8 +1,3 @@
-body{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background: black;
-}
 
 span{
     color: red;
@@ -12,15 +7,11 @@ p{
     color: black;
 }
 .wrapper{
-    position: absolute;
     height: 100%;
-    width: 100%;
+    width: 98%;
     padding: 15px;
     background: rgb(193, 222, 149);
-    border-radius: 5px;
     text-align: center;
-    margin: auto;
-
 }
 input{
     outline: none;
@@ -57,12 +48,13 @@ button{
 img{
     width: 200px;
     height: 200px;
-    margin-top: 10%;
+    margin-top: 3%;
     margin-bottom: 3%;
 }
 
 .banner{
-    background-color: rgb(52, 163, 0);
+    background-color: rgb(32, 103, 0);
+    width: 100%;
   }
   
   .horizontal-list{
@@ -131,7 +123,7 @@ img{
   .articles-frame img{
     width: 100%;
     max-width: 550px;
-    height: 500px;
+    height: 300px;
     object-fit: cover;
     border-end-end-radius: 10px;
     margin-left: auto;
@@ -141,8 +133,9 @@ img{
     justify-content: center;
   }
   .articles-frame h2{
-    font-size: 39px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(230, 207, 0);
   }
 
   .articles-frame p{
@@ -159,6 +152,7 @@ img{
     background-color: #050505;
     cursor: pointer;
   }
+  
   .article-three{
     border: black solid;
     background-color: #050505;
@@ -172,16 +166,20 @@ img{
 
 
   #article-one-description{
-    color: white;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
   }
   #article-two-description{
-    color: white;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
   }
   #article-three-description{
-    color: white;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
   }
   #article-four-description{
-    color: white;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
   }
 .article-one-detail{
   background-color: #050505;
