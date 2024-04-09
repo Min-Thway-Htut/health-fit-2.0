@@ -1,4 +1,6 @@
-
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 span{
     color: red;
 }
@@ -29,6 +31,7 @@ button{
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .homePage{
@@ -134,7 +137,7 @@ img{
   }
   .articles-frame h2{
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(230, 207, 0);
   }
 
@@ -181,36 +184,35 @@ img{
     color: rgb(219, 219, 219);
     font-size: 20px;
   }
+
 .article-one-detail{
-  background-color: #050505;
+  background-color: white;
 }
 .article-one-detail img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 1500px;
-  height: 650px;
-  border: white;
+  width: 400px;
+  height: 400px;
+  border: 3px;
 }
 .article-one-detail h2{
-  font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
   text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .article-one-detail p{
-  font-size: 35px;
-  color: white;
+  font-size: 25px;
+  color:rgb(0, 0, 0);
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 1%;
 }
 
 h6{
   font-size: 30px;
-  color: gainsboro;
+  color: rgb(163, 163, 163);
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .articles-frame button{
