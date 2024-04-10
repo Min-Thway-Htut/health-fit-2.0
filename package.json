@@ -1,14 +1,14 @@
 {
-    "name": "untitled",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-      "start": "parcel ./*.html ",
-      "build": "parcel build ./*.html  --dist-dir ./build"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "parcel": "^2.7.0"
-    }
+  "name": "healthfit",  
+  "version": "1.0.0",
+  "description": "A simple healthfit application for education and health tracking",
+  "scripts": {
+    "start": "parcel ./*.html ",
+    "build": "parcel build index.html --out-dir ./dist"  
+  },
+  "author": "Tanatswa Phil Muganga & Min Thway Htut",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
   }
+}

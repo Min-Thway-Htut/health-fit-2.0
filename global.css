@@ -17,7 +17,8 @@ body {
     --font-size-sm: 14px;
   
     /* Colors */
-    --color-mintcream: #f0fdf4;
+    --color-mintcream: linear-gradient(to right, #00c217, #b6fbff);
+
     --color-white: #fff;
     --color-mediumspringgreen: #22c55e;
     --color-forestgreen: #08ab45;

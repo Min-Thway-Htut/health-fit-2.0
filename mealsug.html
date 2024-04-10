@@ -1,56 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Suggestions</title>
+    <link rel="stylesheet" href="calorie-counter.css">
+</head>
+<body>
+    <main>
+        <section class="banner" id="banner">
+            <div class="heading-banner">
+                <nav>
+                    <ul class="horizontal-list">
+                        <li><a id="li-welcome" href="index.html">Home Page</a></li>
+                        <li><a id="bmi-calculator" href="calorie-counter.html">BMI Calculator</a></li>
+                        <li><a id="calorie-calculator" href="dailyCalories.html">Calorie Calculator</a></li>
+                        <li><a id="Meal-suggestions" href="mealsug.html">Meal Plan</a></li>
+                        <li><a id="health-articles" href="articles.html">Articles</a></li>
+                      </ul>
+                    </nav>
+            </div>
+        </section>
+    </main>
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./mealsug.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
-    />
-  </head>
-  <body>
-    <div class="main-frame">
-      <section class="frame">
-        <div class="meal-suggestions-parent">
-          <div class="meal-suggestions">
-            <h2 class="custom-meal-suggestions">Custom Meal Suggestions</h2>
-          </div>
-          <div class="enter-your-daily">
-            Enter your daily calorie intake and dietary preferences for
-            personalized meal recommendations.
-          </div>
-        </div>
-        <div class="cal-consumed-label">
-          <form class="diet-pref-label">
-            <div class="calorie-intake-box">
-              <div class="daily-calorie-intake">Daily Calorie Intake</div>
-              <div class="consumed-cal-display">
-                <input
-                  class="enter-your-calculated"
-                  placeholder="Enter your calculated calories"
-                  type="text"
-                />
-              </div>
-            </div>
-            <div class="dietary-options-label">
-              <div class="dietary-preference">Dietary Preference</div>
-              <input class="meal-suggestions-button" type="text" />
-            </div>
-            <div class="input-frame">
-              <button class="get-meal-suggestions-label">
-                <b class="get-meal-suggestions">Get Meal Suggestions</b>
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
+    <div class="wrapper">
+        <h1>Meal Plan</h1>
+        <p>This meal plan gereator uses calories that you have inputed to generate a personalised meal plan</p>
+        <img src="public/mealsug.png" alt="Meal icon">
+
+    <form id="calorie-form">
+        <label for="calories">Enter your desired calorie intake:</label><br>
+        <input type="number" id="calories" name="calories" required><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="meal-suggestions">
+        <h2>Meal Suggestions</h2>
+        <div id="breakfast"></div>
+        <div id="lunch"></div>
+        <div id="dinner"></div>
     </div>
-  </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="meal.js"></script>
+</body>
 </html>

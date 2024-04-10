@@ -16,7 +16,7 @@ p{
     height: 100%;
     width: 100%;
     padding: 15px;
-    background: rgb(193, 222, 149);
+    background: linear-gradient(to right, #00c217, #b6fbff);
     border-radius: 5px;
     text-align: center;
     margin: auto;
@@ -62,8 +62,10 @@ img{
 }
 
 .banner{
-    background-color: rgb(52, 163, 0);
+    background-color:  rgb(32, 103, 0);
+    width: 100%;
   }
+  
   
   .horizontal-list{
     list-style-type: none;
@@ -105,6 +107,15 @@ img{
     text-decoration: none;
   }
   #calorie-calculator:hover{
+    color: black;
+  }
+
+  #Meal-suggestions{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  #Meal-suggestions:hover{
     color: black;
   }
 
@@ -232,4 +243,138 @@ h6{
 
 #read-article:hover{
   color: red;
+}
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #00c217, #b6fbff);
+}
+
+span {
+  color: red;
+}
+
+p {
+  color: black;
+}
+
+/* Form Styles */
+#calorie-form {
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+#calorie-form label {
+  font-size: 18px;
+}
+
+#calories {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#calories:focus {
+  outline: none;
+  border-color: #E8BC0E; 
+}
+
+#calorie-form input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #E8BC0E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#calorie-form input[type="submit"]:hover {
+  background-color: #FFD700; 
+
+}
+
+/* Meal Suggestions Section */
+#meal-suggestions {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#meal-suggestions h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.meal {
+  background-color: #050505;
+  padding: 10px;
+  border: black solid;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.meal:hover {
+  background-color: #0a0a0a;
+}
+
+.meal-title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.meal-description {
+  color: white;
+}
+
+.meal-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.meal-button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  width: 150px;
+  padding: 10px;
+}
+
+.meal-button:hover {
+  background-color: #333;
+}
+
+/* Additional Styles */
+
+.embrace-a-healthy {
+  margin: 0;
+  width: 481px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.embrace-a-healthy-lifestyle-wrapper {
+  width: 747px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
 }
