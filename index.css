@@ -482,7 +482,7 @@ body{
 }
 
 #li-welcome{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -492,7 +492,7 @@ body{
 }
 
 #bmi-calculator{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-decoration: none;
 }
@@ -501,7 +501,7 @@ body{
 }
 
 #calorie-calculator{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-decoration: none;
 }
@@ -510,7 +510,7 @@ body{
 }
 
 #Meal-suggestions{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-decoration: none;
 }
@@ -519,7 +519,7 @@ body{
 }
 
 #health-articles{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-decoration: none;
 }
